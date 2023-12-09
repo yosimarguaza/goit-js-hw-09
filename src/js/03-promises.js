@@ -1,6 +1,4 @@
-
-
-import Notiflix from 'notiflix';
+import Notiflix from "notiflix";
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
@@ -15,7 +13,7 @@ function createPromise(position, delay) {
   });
 }
 
-document.querySelector('.form').addEventListener('submit', function (event) {
+document.querySelector(".form").addEventListener("submit", function (event) {
   event.preventDefault();
 
   const delay = parseInt(this.elements.delay.value);
